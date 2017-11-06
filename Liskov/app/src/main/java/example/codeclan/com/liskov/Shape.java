@@ -5,5 +5,10 @@ package example.codeclan.com.liskov;
  */
 
 abstract class Shape {
+    private String name;
+
+    public String getName() {
+        return this.getClass().getSimpleName().toLowerCase();
+    }
 
 }

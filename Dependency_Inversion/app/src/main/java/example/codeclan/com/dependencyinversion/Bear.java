@@ -19,7 +19,7 @@ import java.util.ArrayList;
 
 public class Bear{
 
-    private Diary journal;
+    private Journal journal;
 
     public Bear(){
         this.journal = new Diary();
@@ -28,7 +28,7 @@ public class Bear{
         // The Bear is stuck with a Diary, but it shouldn't really matter what kind of journal it is, as long as it can .write()
     }
 
-    public Diary getJournal(){
+    public Journal getJournal(){
         return this.journal;
     }
 
